@@ -89,10 +89,15 @@ li a{
         flex-direction:column-reverse;
         background-position: top;
     }
+    .profile{
+        
+        width: 390px;
+        margin-top: 30px;
+        text-align:start;
+    }
     .profile img{
-        width: 70%;
-        margin-left:0px;
-        margin-top: 40px;
+        margin-left: 0px;
+        padding-left: 0px;
     }
     .start-des{
         text-align: center;
