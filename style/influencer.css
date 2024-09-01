@@ -71,6 +71,75 @@ li a{
 .company img{
     width: 70px;
 }
+.collection-head{
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 30px;
+}
+.box{
+    background-color: white;
+    border-radius: 5px;
+    padding: 11px;
+    border: none;
+    box-shadow: 0px 0px 5px;
+    
+}
+/* .img-box{
+    max-width:100%;
+    max-height:50%;
+
+} */
+/* .img-box img{
+    width: 100%;
+} */
+.box>img{
+    width: 100%;
+    border-radius: 5px;
+}
+.rating{
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-top: 0px;
+    padding-top: 0px;
+    margin-bottom: 0px;
+    
+}
+.rating img{
+    width: 80px;
+    height: 30px;
+    margin-right: 10px;
+    margin-top: 0px;
+}
+.rating-p{
+    
+}
+.box-h{
+    font-size: 1.8rem;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.box-price{
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.box-p{
+    margin-top: 0px;
+    padding-top:0px ;
+    font-size: 1.2rem;
+    max-width: 200px;
+
+}
+.collection-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 40px;
+}
+
 
 
 
@@ -119,10 +188,9 @@ li a{
         margin-top: 50px;
         max-width: 400px;
         flex-wrap: wrap;
-        
-        
-        
-    
+    }
+    .collection-container{
+        grid-template-columns: repeat(1,1fr);
     }
 
     
